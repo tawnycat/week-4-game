@@ -27,7 +27,7 @@ function startTheGame() {
 	$("#random-number").text("RANDOM NUMBER: " + randomNumber);
 	$("#win-counter").text("WINS: " + winCounter);
 	$("#loss-counter").text("LOSSES: " + lossCounter)
-	$("#current-score").text("CURRENT SCORE: " + currentScore);
+	$("#current-score").text("TOTAL SCORE: " + currentScore);
 
 	// Sets crystal value using the function below
 

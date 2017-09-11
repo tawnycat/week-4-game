@@ -1,3 +1,9 @@
 body {
-	background-color: pink;
+	background-color: lightblue;
+	font-family: 'Press Start 2P', cursive;
+	color: gray;
+}
+
+.border {
+	border-color: pink;
 }
