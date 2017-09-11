@@ -24,7 +24,7 @@ function startTheGame() {
 
 	// Set up wins and losses boxes and display them with the random number
 
-	$("#random-number").text(randomNumber);
+	$("#random-number").text("RANDOM NUMBER: " + randomNumber);
 	$("#win-counter").text("WINS: " + winCounter);
 	$("#loss-counter").text("LOSSES: " + lossCounter)
 	$("#current-score").text("CURRENT SCORE: " + currentScore);
