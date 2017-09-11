@@ -8,33 +8,39 @@
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Crystal Collector</h1>
-		</header>
-		<div id="instructions">
-			<p>You will be given a random number at the start of the game.</p>
-			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-			<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
-			<p>The value of each crystal is hidden from you until you click on it.</p>
-			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	<div class="container center">
+		<div class="row">
+			<header class="text-center col-md-12 p-4">
+				<h1>Crystal Collector</h1>
+			</header>
 		</div>
-		<div id="random-number">
-		</div>
-		<div id="game-counters">
-			<div id="win-counter">
-			</div>
-			<div id="loss-counter">
+		<div class="row">
+			<div id="instructions" class="col-md-12 p-3 border rounded">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+				<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
 			</div>
 		</div>
-		<div id="crystals-box">
-			<img src="assets/images/blue.png" id="blue-crystal" class="crystal" alt="blue crystal">
-			<img src="assets/images/green.png" id="green-crystal" class="crystal" alt="green crystal">
-			<img src="assets/images/pink.png" id="pink-crystal" class="crystal" alt="pink crystal">
-			<img src="assets/images/yellow.png" id="yellow-crystal" class="crystal" alt="yellow crystal">
+		<div class="row d-flex justify-content-center">
+			<div id="random-number" class="col-md-2 border rounded text-center p-2 m-4">
+			</div>
+			<div id="current-score" class="col-md-2 border rounded text-center p-2 m-4">
+			</div>
+			<div id="win-counter" class="col-md-2 border rounded text-center p-2 m-4">
+			</div>
+			<div id="loss-counter" class="col-md-2 border rounded text-center p-2 m-4">
+			</div>
+
 		</div>
-		<div id="current-score">
+		<div class="row d-flex justify-content-center mt-2">
+			<img src="assets/images/blue.png" id="blue-crystal" class="crystal img-fluid" alt="blue crystal">
+			<img src="assets/images/green.png" id="green-crystal" class="crystal img-fluid" alt="green crystal">
+			<img src="assets/images/pink.png" id="pink-crystal" class="crystal img-fluid" alt="pink crystal">
+			<img src="assets/images/yellow.png" id="yellow-crystal" class="crystal img-fluid" alt="yellow crystal">
 		</div>
+
 	</div>
 </body>
 </html>
